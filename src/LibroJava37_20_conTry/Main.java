@@ -27,6 +27,7 @@ public class Main {
         while (cociente > 0) {
             numeroDelReves = ( numeroDelReves * 10 ) + ( cociente % 10 );
             cociente = cociente / 10;
+
         }
         System.out.println("numero " + numero);
         System.out.println("numero del reves " + numeroDelReves);
