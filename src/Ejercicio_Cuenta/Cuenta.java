@@ -2,6 +2,7 @@ package Ejercicio_Cuenta;
 
 public class Cuenta {
     String numero="";
+
     double saldo=1000.5;
 
     public Cuenta(String numero, double saldo) {
@@ -33,6 +34,8 @@ public class Cuenta {
     public void retirar (double cantidad){
         setSaldo(getSaldo()-cantidad);
     }
+
+
 
 
 }
