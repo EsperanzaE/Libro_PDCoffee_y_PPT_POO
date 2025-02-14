@@ -17,11 +17,11 @@ public class Main {
         String espacio = "  ";
 
         StringBuilder texto=new StringBuilder();
-        for (int i = 0; i <= lado; i++) {
-            for (int j = 0; j <=lado-i; j++) {
+        for (int i = 1; i <= lado; i++) {
+            for (int j = 1; j <=lado-i; j++) {
                 texto.append(espacio);
             }
-            for (int j = 0; j <=i ; j++) {
+            for (int j = 1; j <=i ; j++) {
                 texto.append(asterisco);
             }
             texto.append("\n");
