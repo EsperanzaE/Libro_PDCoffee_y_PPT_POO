@@ -14,7 +14,7 @@ public class Main {
  */
         nombre= cta.nombre;
         dni= cta.dni;
-        saldo=cta.saldo;
+        saldo=cta.getSaldo();
 //        saldo=cta.getSaldo(); // esto sí funciona
 
         System.out.println("nombre de la cueenta = "+ nombre);
