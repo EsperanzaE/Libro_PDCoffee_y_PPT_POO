@@ -29,7 +29,7 @@
         }
         // constructor copia
         public Cubo (Cubo cubo){
-            this.material=cubo.material;
+            this.material=cubo.getMaterial();
             this.color=cubo.color;
             this.asa=cubo.asa;
             this.capacidad= cubo.capacidad;
@@ -254,6 +254,12 @@
             int control = this.llena(cuboOrigen.contenido);
             this.vacia();
             this.llena(control);
+        }
+        public void volcarCubo3(Cubo cuboOrigen){
+            this.llena(cuboOrigen.getContenido());
+            cuboOrigen.vacia();
+
+
         }
     }
 
