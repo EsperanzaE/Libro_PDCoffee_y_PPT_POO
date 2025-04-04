@@ -1,0 +1,12 @@
+.Crear una clase Cubo con los siguientes atributos o estados:
+ - material, asa, color, capacidad máxima, contenido actual
+.Crear tres constructores:
+  .Constructor sin parámetros: crea un cubo por defecto con unas característica fijas,  por ejemplo: plástico, false, negro, 10, 0
+  .Constructor con parámetros: el constructor tendrá un parámetro para cada atributo
+  .Constructor copia
+.Crear métodos Get y Set de cada atributo. (Pensad un momento en esto)
+.Crear métodos para llenar/vaciar el cubo en su totalidad.
+.Sobrecargar los métodos  llenar y vaciar el cubo, incluyendo como argumento el número de litros a llenar o vaciar.
+.Crear un método para volcar la totalidad de un cubo en otro cubo. Ojo que este método debe de controlar qué  cantidad debe de volcarse.
+.Crear el método pintar que dibuje un “cubo” por pantalla con su capacidad  actual. Representarlo mediante caracteres
+
